@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/57113464356fb0f11300df09/1636211207914-HMI46CYD1SJH6ZTAQPTR/ARC_100370_BranchingUniverse_aa_2D_0112.jpg?format=2500w') ;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+h6{
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+
+.mainButton{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #59A5D8;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.mainButton:hover {background-color: #2692da}
+
+.mainButton:active {
+  background-color: #59A5D8;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.secondaryButton {
+  margin: 10px;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #ac6fcd;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+
+.secondaryButton:disabled{
+  background-color: #999;
+}
+
+button:hover {background-color: #9a56bf}
+
+button:active {
+  background-color: #ac6fcd;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
