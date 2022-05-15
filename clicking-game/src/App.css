@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 }
 
 .App-logo {
@@ -11,6 +12,13 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+h1{
+  font-size:100px;
+}
+p{
+  font-size: smaller;
+  font-weight: bold;
 }
 
 .App-header {
@@ -27,21 +35,36 @@
   color: white;
 }
 
-h6{
-  margin-top: 20px;
-  margin-bottom: 3px;
+.headerH6{
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: medium;
+  font-weight:bold;
+  letter-spacing: 2.5px;
+}
+
+.h6{
+  margin-top: 2px;
+  margin-bottom: 1px;
+  font-size: small;
+  font-weight: bold;
+  letter-spacing: 2.5px;
 }
 
 .mainButton{
   display: inline-block;
   padding: 15px 25px;
-  font-size: 24px;
+  /* font-weight: lighter;
+  letter-spacing: 2px; */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 28px;
+  letter-spacing: 1px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #59A5D8;
+  background-color: #419cd8;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
@@ -50,16 +73,18 @@ h6{
 .mainButton:hover {background-color: #2692da}
 
 .mainButton:active {
-  background-color: #59A5D8;
+  background-color: #419cd8;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 
 .secondaryButton {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   margin: 10px;
   display: inline-block;
   padding: 5px 10px;
-  font-size: 18px;
+  font-size: 20px;
+  letter-spacing: 1px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -72,7 +97,7 @@ h6{
 }
 
 .secondaryButton:disabled{
-  background-color: #999;
+  background-color: rgb(94, 93, 93);
 }
 
 button:hover {background-color: #9a56bf}
