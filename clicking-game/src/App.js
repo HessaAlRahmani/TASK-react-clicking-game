@@ -87,7 +87,7 @@ function App() {
           CLICK
         </button>
         <h6 className="headerH6">
-          {click} per click / {autoClick - 1} per second
+          {click} per click , {autoClick - 1} per second
         </h6>
         <button
           className="secondaryButton"
